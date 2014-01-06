@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
-    <updated>2013-10-17T18:21:44-04:00</updated>
+    <updated>2014-01-05T23:51:01-07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -49,7 +49,11 @@
     <choose>
       <if type="chapter paper-conference" match="any">
         <group prefix=", " delimiter=", ">
-          <names variable="container-author editor" delimiter=", ">
+          <names variable="container-author" delimiter=", ">
+            <label form="verb" suffix=" " plural="never"/>
+            <name and="text" delimiter=", "/>
+          </names>
+          <names variable="editor translator" delimiter=", ">
             <label form="verb" suffix=" " plural="never"/>
             <name and="text" delimiter=", "/>
           </names>
