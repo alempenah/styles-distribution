@@ -14,17 +14,23 @@
     <category field="biology"/>
     <issn>1063-5157</issn>
     <eissn>1076-836X</eissn>
-    <updated>2013-08-28T22:18:55-06:00</updated>
+    <updated>2014-01-09T00:12:48-07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
-    <names variable="author" suffix=" ">
+    <names variable="author" suffix=". ">
       <name delimiter=", " name-as-sort-order="all" sort-separator=" " form="long" initialize-with="."/>
+      <label prefix=", "/>
+      <substitute>
+        <names variable="editor"/>
+        <text variable="title"/>
+      </substitute>    
     </names>
   </macro>
   <macro name="editor">
-    <names variable="editor" prefix="In: " suffix=" ">
+    <names variable="editor" prefix="In: " suffix=". ">
       <name delimiter=", " name-as-sort-order="all" sort-separator=" " form="long" initialize-with="."/>
+      <label prefix=", "/>
     </names>
   </macro>
   <macro name="year">
@@ -56,7 +62,7 @@
       <key macro="author"/>
       <key macro="year" sort="ascending"/>
     </sort>
-    <layout>
+    <layout suffix=".">
       <text macro="author"/>
       <text macro="year"/>
       <text macro="title"/>
