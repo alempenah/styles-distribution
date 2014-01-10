@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The SAGE Harvard author-date style</summary>
-    <updated>2013-12-20T12:28:54+01:00</updated>
+    <updated>2014-01-10T14:12:01-07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -86,7 +86,7 @@
     </choose>
   </macro>
   <macro name="publisher">
-    <group delimiter=", ">
+    <group delimiter=": ">
       <text variable="publisher-place"/>
       <text variable="publisher"/>
     </group>
