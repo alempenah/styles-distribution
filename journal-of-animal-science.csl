@@ -14,7 +14,7 @@
     <category field="biology"/>
     <issn>0021-8812</issn>
     <eissn>1525-3163</eissn>
-    <updated>2014-01-09T23:18:35-05:00</updated>
+    <updated>2014-01-16T14:22:05-07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -103,7 +103,7 @@
       <key macro="author-short"/>
     </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
-      <group delimiter=" ">
+      <group delimiter=", ">
         <text macro="author-short"/>
         <text macro="year-date"/>
       </group>
