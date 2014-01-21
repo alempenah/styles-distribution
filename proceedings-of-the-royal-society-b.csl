@@ -24,7 +24,7 @@
     <category field="biology"/>
     <issn>0962-8452</issn>
     <eissn>1471-2954</eissn>
-    <updated>2013-11-23T16:20:13-06:00</updated>
+    <updated>2014-01-20T23:58:48-07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -142,7 +142,7 @@
           <text macro="edition" prefix=" " suffix=" "/>
           <text macro="publisher"/>
         </if>
-        <else-if type="chapter">
+        <else-if type="chapter paper-conference" match="any">
           <group prefix=" " suffix=", ">
             <text term="in" suffix=" " text-case="capitalize-first"/>
             <text variable="container-title" font-style="italic"/>
