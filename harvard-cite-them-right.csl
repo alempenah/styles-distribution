@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Harvard according to Cite Them Right</summary>
-    <updated>2013-12-05T20:48:46-05:00</updated>
+    <updated>2014-01-21T23:12:23-07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -94,9 +94,15 @@
         </group>
       </if>
       <else-if type="article-newspaper article-magazine" match="none">
-        <group delimiter=": ">
-          <text variable="publisher-place"/>
-          <text variable="publisher"/>
+        <group delimiter=" ">     
+          <group delimiter=": ">
+            <text variable="publisher-place"/>
+            <text variable="publisher"/>
+          </group>
+          <group prefix="(" suffix=")" delimiter=", ">
+            <text variable="collection-title"/>
+            <text variable="collection-number"/>
+          </group>
         </group>
       </else-if>
     </choose>
@@ -201,7 +207,6 @@
             <text macro="editor"/>
             <text macro="container-title"/>
           </group>
-          <text variable="collection-title" form="long" font-style="italic"/>
         </group>
       </group>
       <text macro="publisher" prefix=". "/>
