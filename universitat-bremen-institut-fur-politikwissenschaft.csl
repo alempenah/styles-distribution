@@ -16,7 +16,7 @@
     <category field="political_science"/>
     <category field="social_science"/>
     <summary>Universität Bremen - Institut für Politikwissenschaft (German) - A Harvard author-date style variant as used for Political Science at University of Bremen, Germany. The in-text citation style is changed to [author year: page], avoiding the abbreviation for pages (S.) and changing the delimiters. Based on Harvard - Institut fuer Praxisforschung (Bahr &amp; Frackmann) style by Jonas Bahr and Malte Frackmann.</summary>
-    <updated>2014-01-10T09:49:14+01:00</updated>
+    <updated>2014-01-23T13:16:05+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -227,8 +227,8 @@
   <bibliography hanging-indent="false" et-al-min="10" et-al-use-first="10">
     <sort>
       <key macro="author"/>
-      <key variable="title"/>
       <key variable="issued"/>
+      <key variable="title"/>
     </sort>
     <layout>
       <group delimiter=" " suffix=".">
