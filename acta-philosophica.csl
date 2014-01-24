@@ -16,7 +16,7 @@
     <eissn>1825-6562</eissn>
     <summary>Acta Philosophica journal’s citation style: footnotes citation style plus full bibliography (available customized locales:it,en,es)</summary>
     <published>2014-01-24T00:00:00+00:00</published>
-    <updated>2014-01-23T19:21:39-05:00</updated>
+    <updated>2014-01-24T07:24:59+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it">
@@ -56,7 +56,7 @@
       <term name="in">in</term>
       <term name="cited" form="short">cit.</term>
       <term name="accessed" form="long">consultato il</term>
-      <term name="presented at">pubblicado in</term>
+      <term name="presented at">pubblicato in</term>
     </terms>
   </locale>
   <locale xml:lang="en">
