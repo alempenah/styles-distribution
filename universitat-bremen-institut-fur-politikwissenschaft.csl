@@ -6,7 +6,7 @@
     <id>http://www.zotero.org/styles/universitat-bremen-institut-fur-politikwissenschaft</id>
     <link href="http://www.zotero.org/styles/universitat-bremen-institut-fur-politikwissenschaft" rel="self"/>
     <link href="http://www.zotero.org/styles/harvard-institut-fur-praxisforschung-de" rel="template"/>
-	<!--Der Link unter dieser Zeile verweist auf die Vorgaben, nach denen dieser Code ausgerichtet ist (Stand November 2013)-->
+    <!--Der Link unter dieser Zeile verweist auf die Vorgaben, nach denen dieser Code ausgerichtet ist (Stand November 2013)-->
     <link href="http://www.politik.uni-bremen.de/downloads/kompendium_wiss_arb.pdf" rel="documentation"/>
     <contributor>
       <name>Julian Koepff</name>
@@ -16,7 +16,7 @@
     <category field="political_science"/>
     <category field="social_science"/>
     <summary>Universität Bremen - Institut für Politikwissenschaft (German) - A Harvard author-date style variant as used for Political Science at University of Bremen, Germany. The in-text citation style is changed to [author year: page], avoiding the abbreviation for pages (S.) and changing the delimiters. Based on Harvard - Institut fuer Praxisforschung (Bahr &amp; Frackmann) style by Jonas Bahr and Malte Frackmann.</summary>
-    <updated>2014-01-23T13:16:05+01:00</updated>
+    <updated>2014-01-23T19:19:05-05:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">

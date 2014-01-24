@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" page-range-format="minimal" demote-non-dropping-particle="sort-only" default-locale="en-GB" xmlns="http://purl.org/net/xbiblio/csl">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" page-range-format="minimal" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
     <title>Sociology of Health &amp; Illness</title>
     <title-short>Sociol Health Ill</title-short>
@@ -19,7 +19,7 @@
     <issn>0141-9889</issn>
     <eissn>1467-9566</eissn>
     <summary>Harvard author-date style edited for Sociology of Health and Illness</summary>
-    <updated>2014-01-15T17:13:33+01:00</updated>
+    <updated>2014-01-23T19:19:05-05:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
