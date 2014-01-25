@@ -19,7 +19,7 @@
     <issn>0141-9889</issn>
     <eissn>1467-9566</eissn>
     <summary>Harvard author-date style edited for Sociology of Health and Illness</summary>
-    <updated>2014-01-23T19:19:05-05:00</updated>
+    <updated>2014-01-25T20:00:36+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -46,7 +46,13 @@
       <name form="short" and="text" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1"/>
       <et-al font-style="italic"/>
       <substitute>
+        <names variable="editor"/>
         <names variable="translator"/>
+        <choose>
+          <if type="report" match="any">
+            <text variable="publisher"/>
+          </if>
+        </choose>
         <text macro="anon"/>
       </substitute>
     </names>
@@ -153,18 +159,21 @@
     </choose>
   </macro>
   <citation disambiguate-add-year-suffix="true" collapse="year">
+    <sort>
+      <key macro="author-short"/>
+      <key macro="year-date"/>
+    </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
-      <group delimiter=" ">
-        <text macro="author-short"/>
-        <text macro="year-date"/>
-        <group>
-          <label variable="locator" form="short"/>
-          <text variable="locator"/>
+      <group delimiter=": ">
+        <group delimiter=" ">
+          <text macro="author-short"/>
+          <text macro="year-date"/>
         </group>
+        <text variable="locator"/>
       </group>
     </layout>
   </citation>
-  <bibliography initialize-with="." hanging-indent="true">
+  <bibliography initialize-with="." hanging-indent="true" line-spacing="2">
     <sort>
       <key macro="author"/>
       <key variable="year-suffix"/>
