@@ -19,7 +19,7 @@
     <issn>0141-9889</issn>
     <eissn>1467-9566</eissn>
     <summary>Harvard author-date style edited for Sociology of Health and Illness</summary>
-    <updated>2014-01-25T20:00:36+01:00</updated>
+    <updated>2014-01-26T19:39:19+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -176,7 +176,7 @@
   <bibliography initialize-with="." hanging-indent="true" line-spacing="2">
     <sort>
       <key macro="author"/>
-      <key variable="year-suffix"/>
+      <key macro="year-date"/>
       <key variable="title"/>
     </sort>
     <layout>
